@@ -54,9 +54,6 @@ Yolcu bilgilerini doldurur.
 mvn test -DsuiteXmlFile=src/test/java/tests/TC03.xml
 Kullanım
 
-Belirli bir test senaryosunu çalıştırmak için yukarıdaki komutlardan birini kullanabilirsiniz. Test sonuçları konsolda ve target/surefire-reports klasöründe HTML formatında oluşturulacaktır.
-Raporlama
-Test sonuçlarını görmek için:
-mvn surefire-report:report
+Belirli bir test senaryosunu çalıştırmak için yukarıdaki komutlardan birini kullanabilirsiniz. Test sonuçları konsolda ve target/surefire-reports klasöründe HTML formatında ve test-output klasörü altında oluşturulacaktır.
 
 Bu proje, uçak bileti arama ve biletleme süreçlerinde kullanıcı deneyimini iyileştirmek için otomatik testlerle kaliteyi artırmayı amaçlamaktadır.
